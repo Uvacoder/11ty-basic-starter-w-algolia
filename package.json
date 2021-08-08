@@ -34,6 +34,7 @@
     "markdown-it-anchor": "^8.1.2"
   },
   "dependencies": {
-    "atomic-algolia": "^0.3.19"
+    "atomic-algolia": "^0.3.19",
+    "netlify-plugin-search-index": "^0.1.6"
   }
 }

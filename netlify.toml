@@ -1,3 +1,7 @@
 [build]
   publish = "_site"
   command = "eleventy"
+
+
+[[plugins]]
+package = 'netlify-plugin-search-index'
