@@ -23,9 +23,7 @@
   </head>
   <body>
     <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}
-        <div id="search"></div>
-      </a></h1>
+      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
@@ -33,6 +31,7 @@
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
       </ul>
+      <div id="search"></div>
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>

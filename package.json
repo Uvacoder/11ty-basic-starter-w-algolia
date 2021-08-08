@@ -7,6 +7,7 @@
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
     "start": "eleventy --serve",
+    "algolia": "atomic-algolia",
     "debug": "DEBUG=* eleventy"
   },
   "repository": {
@@ -31,5 +32,8 @@
     "luxon": "^1.26.0",
     "markdown-it": "^12.1.0",
     "markdown-it-anchor": "^8.1.2"
+  },
+  "dependencies": {
+    "atomic-algolia": "^0.3.19"
   }
 }
