@@ -1,21 +1,21 @@
 {
   "title": "Your Blog Name",
-  "url": "https://example.com/",
+  "url": "https://11ty-basic-starter-w-algolia.vercel.app/",
   "language": "en",
   "description": "I am writing about my experiences as a naval navel-gazer.",
   "feed": {
     "subtitle": "I am writing about my experiences as a naval navel-gazer.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://11ty-basic-starter-w-algolia.vercel.app/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://11ty-basic-starter-w-algolia.vercel.app/feed/feed.json"
   },
   "author": {
     "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "email": "freeunioncoder@gmail.com",
+    "url": "https://11ty-basic-starter-w-algolia.vercel.app/about-me/"
   }
 }
